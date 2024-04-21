@@ -1,0 +1,56 @@
+// Product class for managing product information
+public class Product {
+    private String name;
+    private double price;
+    
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public double getPrice() {
+        return price;
+    }
+}
+
+// Order class for managing orders
+public class Order {
+    private List<Product> products;
+    private Customer customer;
+    
+    public Order(Customer customer) {
+        this.customer = customer;
+        this.products = new ArrayList<>();
+    }
+    
+    public void addProduct(Product product) {
+        products.add(product);
+    }
+    
+    public List<Product> getProducts() {
+        return products;
+    }
+}
+
+// Customer class for managing customer information
+public class Customer {
+    private String name;
+    private String email;
+    
+    public Customer(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public String getEmail() {
+        return email;
+    }
+}
