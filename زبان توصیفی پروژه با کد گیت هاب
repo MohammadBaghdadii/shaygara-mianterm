@@ -1,0 +1,63 @@
+#object oriented programming-midterm
+#mogram
+The system of selling chain store products through the website
+website
+sale
+Products
+chain store
+Money
+Others
+#informal definition
+Selling chain store products through the website means exchanging a product or service for money or other assets on the website with others
+
+#mathemathical expression :
+Selling(S) chain store(CH) products(P) through the website(W) means exchanging a product or service for money(M) or other assets on the website with others(O)
+SCHPW = {S,CH,P,W,M,O}
+
+*************************************************************************************************************
+#Symbol table :
+
+symbol           meaning
+------           -------
+S                Selling
+CH               chain store
+P                products
+W                website
+M                money
+O                others
+?                vagueness
+
+***************************************************************************************************************
+#numerical domain for each synbol :
+
+S  :
+CH :
+P  :
+W  :
+M  :
+O  :
+
+***************************************************************************************************************
+All element are directly related ,if each work correctly the other will also work correctly.
+Ex) product = others
+    others  = selling
+    selling = money
+
+***************************************************************************************************************
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
