@@ -2,7 +2,7 @@
 #mogram
 The system of selling chain store products through the website
 website
-sale
+selling
 Products
 chain store
 Money
@@ -28,14 +28,14 @@ O                others
 ?                vagueness
 
 ***************************************************************************************************************
-#numerical domain for each synbol :
+#numerical domain for each symbol :
 
-S  :
-CH :
-P  :
-W  :
-M  :
-O  :
+S  : A product between two natural or legal persons
+CH : They are a collection of stores that have a single management and are spread across a city, country or several countries.
+P  : Anything offered to meet the needs and wants of customers,A product can be a physical good, service, experience, event, person, place, information or an idea
+W  : A collection of web pages containing multimedia content that share a common internet domain or internet subdomain
+M  : It is a device, object, or thing that people use to facilitate the exchange of services and goods in order to meet their needs and desires.
+O  : Buyer, seller and intermediary
 
 ***************************************************************************************************************
 All element are directly related ,if each work correctly the other will also work correctly.
