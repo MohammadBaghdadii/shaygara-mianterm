@@ -1,0 +1,22 @@
+from puzzle_generator import WordSearchPuzzleGenerator
+
+# Create an instance of WordSearchPuzzleGenerator
+puzzle_generator = WordSearchPuzzleGenerator()
+
+# Define word lists for different puzzles
+word_list_1 = ['PYTHON', 'JAVA', 'C', 'HTML', 'CSS']
+word_list_2 = ['DOG', 'CAT', 'BIRD', 'FISH', 'RABBIT']
+word_list_3 = ['APPLE', 'BANANA', 'ORANGE', 'STRAWBERRY', 'MANGO']
+
+# Generate puzzles
+puzzle_1 = puzzle_generator.generate_puzzle(word_list_1)
+puzzle_2 = puzzle_generator.generate_puzzle(word_list_2)
+puzzle_3 = puzzle_generator.generate_puzzle(word_list_3)
+
+# Print the puzzles
+print("Puzzle 1:")
+puzzle_generator.print_puzzle(puzzle_1)
+print("\nPuzzle 2:")
+puzzle_generator.print_puzzle(puzzle_2)
+print("\nPuzzle 3:")
+puzzle_generator.print_puzzle(puzzle_3)
